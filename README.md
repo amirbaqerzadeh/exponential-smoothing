@@ -1,4 +1,4 @@
-# Temperature Analysis and Forecasting
+# Temperature Analysis and Forecasting using Exponential Smoothing models
 
 This repository contains Python code for analyzing temperature data and performing time series forecasting using Exponential Smoothing models. The project includes various utility functions for data preprocessing, visualization, decomposition, and forecasting.
 
@@ -16,6 +16,7 @@ This repository contains Python code for analyzing temperature data and performi
 ## Introduction
 
 Temperature analysis is crucial for understanding climate trends and making informed decisions. This project offers tools to preprocess temperature data, visualize it, and make temperature predictions using Exponential Smoothing models.
+Exponential Smoothing models are a class of time series forecasting methods widely used in various fields, including economics, finance, and climate science. These models are particularly suitable for capturing and forecasting data with systematic patterns and trends over time. They are based on the principle of assigning exponentially decreasing weights to past observations, giving more importance to recent data points while gradually reducing the influence of older ones.
 
 ## About Data
 We used temperature data from NOAA GHCN v4 and NASA's GISTEMP v4 for this project. It includes monthly temperature records for cities worldwide. Our focus was on Zahedan, Shiraz and Tehran, with data spanning from 1970 to 2022.

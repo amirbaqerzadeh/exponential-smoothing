@@ -5,6 +5,7 @@ This repository contains Python code for analyzing temperature data and performi
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [About Data](#about-data)
 - [Project Structure](#project-structure)
 - [Functions](#functions)
 - [Usage](#usage)
@@ -15,6 +16,10 @@ This repository contains Python code for analyzing temperature data and performi
 ## Introduction
 
 Temperature analysis is crucial for understanding climate trends and making informed decisions. This project offers tools to preprocess temperature data, visualize it, and make temperature predictions using Exponential Smoothing models.
+
+## About Data
+We used temperature data from NOAA GHCN v4 and NASA's GISTEMP v4 for this project. It includes monthly temperature records for cities worldwide. Our focus was on Shiraz and Tehran, with data spanning from 1970 to 2022.
+You can access the original data at [NASA GISTEMP v4 - Station Data](https://data.giss.nasa.gov/gistemp/station_data_v4_globe/).
 
 ## Project Structure
 
